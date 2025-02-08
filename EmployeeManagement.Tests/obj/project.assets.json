@@ -7065,11 +7065,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\IIHT_DATA\\Project_2025\\EmployeeManagement_API\\EmployeeManagement.Tests\\EmployeeManagement.Tests.csproj",
+      "projectUniqueName": "D:\\IIHT_DATA\\Project_2025\\EmployeeManagement_API\\EmployeeManagement_API_With_TestCase\\EmployeeManagement.Tests\\EmployeeManagement.Tests.csproj",
       "projectName": "EmployeeManagement.Tests",
-      "projectPath": "D:\\IIHT_DATA\\Project_2025\\EmployeeManagement_API\\EmployeeManagement.Tests\\EmployeeManagement.Tests.csproj",
+      "projectPath": "D:\\IIHT_DATA\\Project_2025\\EmployeeManagement_API\\EmployeeManagement_API_With_TestCase\\EmployeeManagement.Tests\\EmployeeManagement.Tests.csproj",
       "packagesPath": "C:\\Users\\umaku\\.nuget\\packages\\",
-      "outputPath": "D:\\IIHT_DATA\\Project_2025\\EmployeeManagement_API\\EmployeeManagement.Tests\\obj\\",
+      "outputPath": "D:\\IIHT_DATA\\Project_2025\\EmployeeManagement_API\\EmployeeManagement_API_With_TestCase\\EmployeeManagement.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\umaku\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7087,8 +7087,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\IIHT_DATA\\Project_2025\\EmployeeManagement_API\\EmployeeManagement_API\\EmployeeManagement_API.csproj": {
-              "projectPath": "D:\\IIHT_DATA\\Project_2025\\EmployeeManagement_API\\EmployeeManagement_API\\EmployeeManagement_API.csproj"
+            "D:\\IIHT_DATA\\Project_2025\\EmployeeManagement_API\\EmployeeManagement_API_With_TestCase\\EmployeeManagement_API\\EmployeeManagement_API.csproj": {
+              "projectPath": "D:\\IIHT_DATA\\Project_2025\\EmployeeManagement_API\\EmployeeManagement_API_With_TestCase\\EmployeeManagement_API\\EmployeeManagement_API.csproj"
             }
           }
         }
@@ -7148,5 +7148,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1900",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Error occurred while getting package vulnerability data: Unable to load the service index for source https://api.nuget.org/v3/index.json."
+    }
+  ]
 }

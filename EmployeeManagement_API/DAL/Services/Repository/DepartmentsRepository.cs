@@ -32,6 +32,12 @@ namespace Web_API_with_Angular.DAL.Services.Repository
 
         public async Task<bool> DeleteDepartmentById(long id)
         {
+            var department = await _dbContext.Departments.FindAsync(id);
+
+            if (department == null)
+            {
+                throw new Exception("Department not found.");
+            }
             try
             {
                 _dbContext.Departments.Remove(_dbContext.Departments.Single(a => a.Id == id));

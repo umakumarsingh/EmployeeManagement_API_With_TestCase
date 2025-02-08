@@ -1,10 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\IIHT_DATA\\Project_2025\\EmployeeManagement_API\\",
+  "WorkspaceRootPath": "D:\\IIHT_DATA\\Project_2025\\EmployeeManagement_API\\EmployeeManagement_API_With_TestCase\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{29603AA4-8E2C-4DDD-9103-F375E1DE1647}|EmployeeManagement_API\\EmployeeManagement_API.csproj|d:\\iiht_data\\project_2025\\employeemanagement_api\\employeemanagement_api\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{29603AA4-8E2C-4DDD-9103-F375E1DE1647}|EmployeeManagement_API\\EmployeeManagement_API.csproj|solutionrelative:employeemanagement_api\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{29603AA4-8E2C-4DDD-9103-F375E1DE1647}|EmployeeManagement_API\\EmployeeManagement_API.csproj|d:\\iiht_data\\project_2025\\employeemanagement_api\\employeemanagement_api_with_testcase\\employeemanagement_api\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29603AA4-8E2C-4DDD-9103-F375E1DE1647}|EmployeeManagement_API\\EmployeeManagement_API.csproj|solutionrelative:employeemanagement_api\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29603AA4-8E2C-4DDD-9103-F375E1DE1647}|EmployeeManagement_API\\EmployeeManagement_API.csproj|d:\\iiht_data\\project_2025\\employeemanagement_api\\employeemanagement_api_with_testcase\\employeemanagement_api\\controllers\\departmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29603AA4-8E2C-4DDD-9103-F375E1DE1647}|EmployeeManagement_API\\EmployeeManagement_API.csproj|solutionrelative:employeemanagement_api\\controllers\\departmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29603AA4-8E2C-4DDD-9103-F375E1DE1647}|EmployeeManagement_API\\EmployeeManagement_API.csproj|d:\\iiht_data\\project_2025\\employeemanagement_api\\employeemanagement_api_with_testcase\\employeemanagement_api\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29603AA4-8E2C-4DDD-9103-F375E1DE1647}|EmployeeManagement_API\\EmployeeManagement_API.csproj|solutionrelative:employeemanagement_api\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29603AA4-8E2C-4DDD-9103-F375E1DE1647}|EmployeeManagement_API\\EmployeeManagement_API.csproj|d:\\iiht_data\\project_2025\\employeemanagement_api\\employeemanagement_api_with_testcase\\employeemanagement_api\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29603AA4-8E2C-4DDD-9103-F375E1DE1647}|EmployeeManagement_API\\EmployeeManagement_API.csproj|solutionrelative:employeemanagement_api\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +26,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DepartmentsController.cs",
+              "DocumentMoniker": "D:\\IIHT_DATA\\Project_2025\\EmployeeManagement_API\\EmployeeManagement_API_With_TestCase\\EmployeeManagement_API\\Controllers\\DepartmentsController.cs",
+              "RelativeDocumentMoniker": "EmployeeManagement_API\\Controllers\\DepartmentsController.cs",
+              "ToolTip": "D:\\IIHT_DATA\\Project_2025\\EmployeeManagement_API\\EmployeeManagement_API_With_TestCase\\EmployeeManagement_API\\Controllers\\DepartmentsController.cs",
+              "RelativeToolTip": "EmployeeManagement_API\\Controllers\\DepartmentsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T06:20:52.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Web.config",
-              "DocumentMoniker": "D:\\IIHT_DATA\\Project_2025\\EmployeeManagement_API\\EmployeeManagement_API\\Web.config",
-              "RelativeDocumentMoniker": "EmployeeManagement_API\\Web.config",
-              "ToolTip": "D:\\IIHT_DATA\\Project_2025\\EmployeeManagement_API\\EmployeeManagement_API\\Web.config",
-              "RelativeToolTip": "EmployeeManagement_API\\Web.config",
-              "ViewState": "AgIAADkAAAAAAAAAAAArwEIAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-02-07T14:17:01.183Z",
+              "Title": "EmployeesController.cs",
+              "DocumentMoniker": "D:\\IIHT_DATA\\Project_2025\\EmployeeManagement_API\\EmployeeManagement_API_With_TestCase\\EmployeeManagement_API\\Controllers\\EmployeesController.cs",
+              "RelativeDocumentMoniker": "EmployeeManagement_API\\Controllers\\EmployeesController.cs",
+              "ToolTip": "D:\\IIHT_DATA\\Project_2025\\EmployeeManagement_API\\EmployeeManagement_API_With_TestCase\\EmployeeManagement_API\\Controllers\\EmployeesController.cs",
+              "RelativeToolTip": "EmployeeManagement_API\\Controllers\\EmployeesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKUAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T06:20:48.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "D:\\IIHT_DATA\\Project_2025\\EmployeeManagement_API\\EmployeeManagement_API_With_TestCase\\EmployeeManagement_API\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "EmployeeManagement_API\\Models\\Employee.cs",
+              "ToolTip": "D:\\IIHT_DATA\\Project_2025\\EmployeeManagement_API\\EmployeeManagement_API_With_TestCase\\EmployeeManagement_API\\Models\\Employee.cs",
+              "RelativeToolTip": "EmployeeManagement_API\\Models\\Employee.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T16:46:25.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Department.cs",
+              "DocumentMoniker": "D:\\IIHT_DATA\\Project_2025\\EmployeeManagement_API\\EmployeeManagement_API_With_TestCase\\EmployeeManagement_API\\Models\\Department.cs",
+              "RelativeDocumentMoniker": "EmployeeManagement_API\\Models\\Department.cs",
+              "ToolTip": "D:\\IIHT_DATA\\Project_2025\\EmployeeManagement_API\\EmployeeManagement_API_With_TestCase\\EmployeeManagement_API\\Models\\Department.cs",
+              "RelativeToolTip": "EmployeeManagement_API\\Models\\Department.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T14:41:31.208Z",
               "EditorCaption": ""
             }
           ]

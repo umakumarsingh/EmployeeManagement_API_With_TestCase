@@ -255,6 +255,10 @@
     <Compile Include="Migrations\202502061454335_Entity-UpdateCheck.Designer.cs">
       <DependentUpon>202502061454335_Entity-UpdateCheck.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202502080411100_Salary Type chnage.cs" />
+    <Compile Include="Migrations\202502080411100_Salary Type chnage.Designer.cs">
+      <DependentUpon>202502080411100_Salary Type chnage.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Department.cs" />
     <Compile Include="Models\Employee.cs" />
@@ -415,6 +419,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202502061454335_Entity-UpdateCheck.resx">
       <DependentUpon>202502061454335_Entity-UpdateCheck.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202502080411100_Salary Type chnage.resx">
+      <DependentUpon>202502080411100_Salary Type chnage.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

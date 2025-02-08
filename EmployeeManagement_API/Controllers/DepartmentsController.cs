@@ -10,6 +10,9 @@ using System.Web.Http;
 
 namespace EmployeeManagement_API.Controllers
 {
+    /// <summary>
+    /// [AuthFilter] applied for validation before access this api must get token
+    /// </summary>
     [AuthFilter]
     [RoutePrefix("api/departments")]
     public class DepartmentsController : ApiController
@@ -22,13 +25,21 @@ namespace EmployeeManagement_API.Controllers
         {
             _service = service;
         }
-
+        /// <summary>
+        /// Get all Deapartments
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
         [Route("GetAllDepartments")]
         public IEnumerable<Department> GetAllDepartments()
         {
             return _service.GetAllDepartment();
         }
+        /// <summary>
+        /// Get Department By Id
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         [HttpGet]
         [Route("{id:long}")]
         public async Task<IHttpActionResult> GetDepartmentsId(long id)
@@ -38,6 +49,11 @@ namespace EmployeeManagement_API.Controllers
                 return NotFound();
             return Ok(employee);
         }
+        /// <summary>
+        /// Create a new Departments by passing department model
+        /// </summary>
+        /// <param name="model"></param>
+        /// <returns></returns>
         [HttpPost]
         [Route("departments")]
         [AllowAnonymous]
@@ -55,6 +71,12 @@ namespace EmployeeManagement_API.Controllers
             var result = await _service.CreateDepartment(model);
             return Ok(new Response { Status = "Success", Message = "Employee created successfully!" });
         }
+        /// <summary>
+        /// Update Departments by Id and Departments Model
+        /// </summary>
+        /// <param name="deptId"></param>
+        /// <param name="model"></param>
+        /// <returns></returns>
         [HttpPut]
         [Route("UpdateDepartment/{deptId}")]
         public async Task<IHttpActionResult> UpdateDepartment(long deptId, [FromBody] Department model)
@@ -87,8 +109,13 @@ namespace EmployeeManagement_API.Controllers
                 return InternalServerError(new Exception($"Error: {ex.Message}"));
             }
         }
+        /// <summary>
+        /// Delete Departments by DepartmentID
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         [HttpDelete]
-        [Route("DeleteDepartment")]
+        [Route("DeleteDepartment/{id}")]
         public async Task<IHttpActionResult> DeleteDepartment(long id)
         {
             var result = await _service.DeleteDepartmentById(id);

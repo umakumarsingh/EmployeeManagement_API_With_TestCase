@@ -32,11 +32,17 @@ namespace Web_API_with_Angular.DAL.Services.Repository
             }
         }
 
-        public async Task<bool> DeleteEmployeeById(long id)
+        public async Task<bool> DeleteEmployeeById(long empId)
         {
+            var exEmp = await _dbContext.Employees.FindAsync(empId);
+
+            if (exEmp == null)
+            {
+                throw new Exception("Employee not found.");
+            }
             try
             {
-                _dbContext.Employees.Remove(_dbContext.Employees.Single(a => a.Id == id));
+                _dbContext.Employees.Remove(_dbContext.Employees.Single(a => a.Id == empId));
                 _dbContext.SaveChanges();
                 return true;
             }
@@ -89,8 +95,8 @@ namespace Web_API_with_Angular.DAL.Services.Repository
                 throw new Exception("Employee not found.");
             }
             // Step 2: Custom validation for DepartmentId
-            var departmentExists = await _dbContext.Departments.AnyAsync(d => d.Id == model.DepartmentId);
-            if (!departmentExists)
+            var employeeExists = await _dbContext.Employees.AnyAsync(d => d.Id == model.Id);
+            if (!employeeExists)
             {
                 throw new Exception("The specified Department ID does not exist.");
             }

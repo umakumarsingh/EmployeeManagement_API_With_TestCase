@@ -18,7 +18,7 @@ namespace EmployeeManagement_API.Models
         public string Position { get; set; }
         [Required(ErrorMessage = "Salary is required.")]
         [Range(0.01, double.MaxValue, ErrorMessage = "Salary must be a positive number.")]
-        public int Salary { get; set; }
+        public double Salary { get; set; }
         [Required(ErrorMessage = "DepartmentId is required.")]
         public int DepartmentId { get; set; }
 
